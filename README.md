@@ -4,6 +4,19 @@ Git repo for Summer Projects 2024.
 
 ## Contact Details
 
-Ethan Simpson - [ethan.simpson@manchester.ac.uk](mailto:ethan.simpson@manchester.ac.uk) [https://private-user-images.githubusercontent.com/68130081/337253209-ec985644-6d48-43e9-8223-bb531c3189e8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NzUyNTIsIm5iZiI6MTcxNzY3NDk1MiwicGF0aCI6Ii82ODEzMDA4MS8zMzcyNTMyMDktZWM5ODU2NDQtNmQ0OC00M2U5LTgyMjMtYmI1MzFjMzE4OWU4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDExNTU1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY3NDk0YTRiNThjYWQxNTFjNDNiZGI2Y2MwMjcyODlmZWQyNGQxYjA5YTVjZTBlMjkzYWJlYzA5NTA4ODE0MTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.GFwo1BFWwI5ff-5JzgY9syAzu4uporG-IJQYnyN9oeI)](https://join.skype.com/invite/kC5RHVCLuzWU)
+Ethan Simpson - [ethan.simpson@manchester.ac.uk](mailto:ethan.simpson@manchester.ac.uk)           [Skype](https://join.skype.com/invite/kC5RHVCLuzWU)
 
 Zihan Zhang -  [zihan.zhang@manchester.ac.uk](mailto:zihan.zhang@manchester.ac.uk)
+
+Yvonne Peters - [yvonne.peters@manchester.ac.uk](mailto:yvonne.peters@manchester.ac.uk)
+
+
+## Physics Primer
+
+I wrote a quick physics primer, with overleaf [here](https://www.overleaf.com/read/byxhgqjmqjkw#9112d0)
+
+## Useful Software Links
+
+[HyPER](https://github.com/tzuhanchang/HyPER)
+
+[MadLAD](https://github.com/tzuhanchang/MadLAD)
