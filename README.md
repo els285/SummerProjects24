@@ -1,6 +1,6 @@
-# SummerProjects24
+# Summer Projects 24
 
-Git repo for Summer Projects 2024.
+Git repo for Summer Projects 2024. We will be investigating various ways of improving the discrimination between observed and unobserved Standard Model processes, and improving the kinematic reconstruction for such processes.
 
 ## Contact Details
 
