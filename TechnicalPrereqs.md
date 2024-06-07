@@ -11,7 +11,7 @@ This is what a terminal might look like...
 
 <img width="600" alt="image" src="https://github.com/els285/SummerProjects24/assets/68130081/1489734c-1d13-4a81-9562-68588cf03117">
 
-In this, I made a new directory, moved in to that directory, opened a text editor called `nano` to create a new python script, ran that script (the output was the sentence *"Is the terminal a blessing or a curse"*), then printed the contents of the directory, then went back to the original directory.
+In this, I made a new directory, moved in to that directory, opened a text editor called `nano` to create a new python script, ran that script (the output was the sentence *"Is the terminal a blessing or a curse"*), then printed the contents of the directory, then went back to the original directory. (When you open a terminal, you won't see the fancy colour scheme I've set up in mine, sorry...)
 
 ## For Windows
 
