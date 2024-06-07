@@ -15,6 +15,10 @@ Yvonne Peters - [yvonne.peters@manchester.ac.uk](mailto:yvonne.peters@manchester
 
 I wrote a quick physics primer, with overleaf [here](https://www.overleaf.com/read/byxhgqjmqjkw#9112d0)
 
+## Technical Primer
+
+Some computer skills like information about command-line interfaces can be found in [TechnicalPrereqs.md](https://github.com/els285/SummerProjects24/blob/main/TechnicalPrereqs.md)
+
 ## Useful Software Links
 
 [HyPER](https://github.com/tzuhanchang/HyPER)
