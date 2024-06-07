@@ -9,7 +9,7 @@ Really the only way to do this is to have a command-line-interface (CLI): some k
 Nearly everybody uses UNIX-based operating systems, which is why you will see everyone in the HEP department generally using Macs or Linux-based operating systems: it's just easier to do everything.
 This is what a terminal might look like...
 
-<img width="300" alt="image" src="https://github.com/els285/SummerProjects24/assets/68130081/1489734c-1d13-4a81-9562-68588cf03117">
+<img width="600" alt="image" src="https://github.com/els285/SummerProjects24/assets/68130081/1489734c-1d13-4a81-9562-68588cf03117">
 
 
 ## For Windows
