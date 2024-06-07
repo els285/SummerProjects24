@@ -1,7 +1,6 @@
 # Technical Prerequisites
 
-This is an evolving list of technical (i.e. non-physics) information which I think will be useful. U
-nfortunately as well as knowing lots of physics you also have to have a pretty broad knowledge of coding, installing and compiling software, UNIX platforms etc.
+This is an evolving list of technical (i.e. non-physics) information which I think will be useful. Unfortunately as well as knowing lots of physics you also have to have a pretty broad knowledge of coding, installing and compiling software, UNIX platforms etc.
 
 ## How we do physics
 In my experience, most physical science research nowadays involved developing or using various different computer programmes, including writing one's own instructions for the computer.
