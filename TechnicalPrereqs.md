@@ -8,6 +8,9 @@ In my experience, most physical science research nowadays involved developing or
 Really the only way to do this is to have a command-line-interface (CLI): some kind of "terminal" which allows us to write text-based instructions which tell the computer what to do.
 Nearly everybody uses UNIX-based operating systems, which is why you will see everyone in the HEP department generally using Macs or Linux-based operating systems: it's just easier to do everything.
 
+![image](https://github.com/els285/SummerProjects24/assets/68130081/3bed3971-57a4-4127-813f-72b8641ff0fd)
+
+
 Windows has as terminal called PowerShell, which is the same idea.
 However, it's probably best to set up a Linux environment, and I think the best solution is `Windows Subsystem for Linux` (looks a lot easier than trying to set such things up on Windows a decade ago...). 
 This looks like a good video to follow to set it up: [WSL Instructions](https://www.youtube.com/watch?v=qYlgUDKKK5A)
