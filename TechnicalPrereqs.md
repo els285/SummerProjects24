@@ -8,7 +8,7 @@ In my experience, most physical science research nowadays involved developing or
 Really the only way to do this is to have a command-line-interface (CLI): some kind of "terminal" which allows us to write text-based instructions which tell the computer what to do.
 Nearly everybody uses UNIX-based operating systems, which is why you will see everyone in the HEP department generally using Macs or Linux-based operating systems: it's just easier to do everything.
 
-![image](https://github.com/els285/SummerProjects24/assets/68130081/3bed3971-57a4-4127-813f-72b8641ff0fd)
+<img src="(https://github.com/els285/SummerProjects24/assets/68130081/3bed3971-57a4-4127-813f-72b8641ff0fd" alt="drawing" width="200"/>
 
 
 Windows has as terminal called PowerShell, which is the same idea.
