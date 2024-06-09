@@ -21,7 +21,7 @@ Some computer skills like information about command-line interfaces can be found
 
 HEP data analysis frameworks:
 * ROOT - [https://root.cern/](https://root.cern/) - C++ and Python through [PyROOT](https://root.cern/manual/python/). ROOT is the main tool people use
-* Scikit-HEP - [https://scikit-hep.org/]([url](https://scikit-hep.org/)) - Python-based, "modern" alternative to ROOT
+* Scikit-HEP - [https://scikit-hep.org/](https://scikit-hep.org/) - Python-based, "modern" alternative to ROOT
 
 
 
