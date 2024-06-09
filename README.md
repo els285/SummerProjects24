@@ -20,8 +20,8 @@ I wrote a quick physics primer, with overleaf [here](https://www.overleaf.com/re
 Some computer skills like information about command-line interfaces can be found in [TechnicalPrereqs.md](https://github.com/els285/SummerProjects24/blob/main/TechnicalPrereqs.md)
 
 HEP data analysis frameworks:
-ROOT - [https://root.cern/](https://root.cern/) - C++ and Python through [PyROOT](https://root.cern/manual/python/). ROOT is the main tool people use
-Scikit-HEP - [https://scikit-hep.org/]([url](https://scikit-hep.org/)) - Python-based, "modern" alternative to ROOT
+* ROOT - [https://root.cern/](https://root.cern/) - C++ and Python through [PyROOT](https://root.cern/manual/python/). ROOT is the main tool people use
+* Scikit-HEP - [https://scikit-hep.org/]([url](https://scikit-hep.org/)) - Python-based, "modern" alternative to ROOT
 
 
 
