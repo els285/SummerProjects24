@@ -4,7 +4,7 @@ Git repo for Summer Projects 2024. We will be investigating various ways of impr
 
 <p float="left">
           <img alt="alt_text" width="400px" src="https://user-images.githubusercontent.com/68130081/147861228-f0680d4b-599b-49e3-9afc-c8b58910ed6a.png" />
-          <img alt="alt_text" width="200px" src="https://github.com/els285/els285/blob/main/images/3b362238-636b-4ec7-86d0-619e3836dcd1.jpg" />
+          <img alt="alt_text" width="200px" src="[https://github.com/els285/els285/blob/main/images/3b362238-636b-4ec7-86d0-619e3836dcd1.jpg](https://private-user-images.githubusercontent.com/68130081/338255566-2289a985-f9fd-4346-92e5-024a277a98b9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgwMzQ3OTMsIm5iZiI6MTcxODAzNDQ5MywicGF0aCI6Ii82ODEzMDA4MS8zMzgyNTU1NjYtMjI4OWE5ODUtZjlmZC00MzQ2LTkyZTUtMDI0YTI3N2E5OGI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjEwVDE1NDgxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYxOTE5MWU3MGY3NzcxMzM0ZmVmNmVhNTZiNzdkYTRlYjc2ZDZkNGJhMmY0MzI2YjE0YjQzZjZmYzRlZjZmZmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0gUIrl6IHxiYFm54LO3ATklimX5tjXcnwt1Cz3xsCd0)" />
 </p>
 
 
