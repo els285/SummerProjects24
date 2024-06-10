@@ -23,3 +23,25 @@ This looks like a good video to follow to set it up: [WSL Instructions](https://
 
 ...is fiddly at first. There are specific commands that do particular things, like copy files, make folders, run python etc. You kinda just have to learn these, for example at
 [Useful linux commands](https://www.hostinger.co.uk/tutorials/linux-commands)
+
+## CSF
+
+`CSF` is a shared computing facility for research at UoM. It provides us with access to shared disk space and GPUs for training ML models.
+To access thse facilities, I've set up accounts for you. We access through the `ssh` protocol.
+
+### SSH 
+This is a way of connecting to remote networks from your own terminal. I use it all the time to connect to cern computing infrastruture for example. 
+You can ssh to CSF via the following command:
+```
+ssh <username>@csf3.itservices.manchester.ac.uk
+```
+upon which you'll then be prompted for a password and possible two-factor authentication for log in.
+
+### VPN Access
+For security reasons, you can only access CSF if you are using UoM wifi, not eduroam or any other network.
+We can get around this by setting up a VPN, with instructions here: [https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/](https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/).
+
+
+
+
+
