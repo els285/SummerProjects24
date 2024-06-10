@@ -12,16 +12,24 @@ Yvonne Peters - [yvonne.peters@manchester.ac.uk](mailto:yvonne.peters@manchester
 
 
 ## Physics Primer
-
 I wrote a quick physics primer, with overleaf [here](https://www.overleaf.com/read/byxhgqjmqjkw#9112d0)
 
 ## Technical Primer
-
 Some computer skills like information about command-line interfaces can be found in [TechnicalPrereqs.md](https://github.com/els285/SummerProjects24/blob/main/TechnicalPrereqs.md)
 
-HEP data analysis frameworks:
+Requirements:
+* A place to store and manipulate data: own workshop, CSF, Noether.
+* A terminal
+* Jupyter notebook environment
+
+#### HEP Software Foundation
+HEP software skills: [https://hsf-training.github.io/analysis-essentials/#](https://hsf-training.github.io/analysis-essentials/#)
+
+#### HEP data analysis frameworks:
 * ROOT - [https://root.cern/](https://root.cern/) - C++ and Python through [PyROOT](https://root.cern/manual/python/). ROOT is the main tool people use
 * Scikit-HEP - [https://scikit-hep.org/](https://scikit-hep.org/) - Python-based, "modern" alternative to ROOT
+These are used to analyse the data structures we store particle collision information in: reading/writing that data, processing it and applying transformations to it, making histograms and plotting results.
+
 
 
 
