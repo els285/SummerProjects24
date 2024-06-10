@@ -3,7 +3,7 @@
 Git repo for Summer Projects 2024. We will be investigating various ways of improving the discrimination between observed and unobserved Standard Model processes, and improving the kinematic reconstruction for such processes.
 
 
-![image](https://github.com/els285/SummerProjects24/assets/68130081/32345120-213a-4e92-91e1-ad35431c45fb)
+![image](https://github.com/els285/SummerProjects24/assets/68130081/32345120-213a-4e92-91e1-ad35431c45fb=150x)
 
 
 ## Contact Details
