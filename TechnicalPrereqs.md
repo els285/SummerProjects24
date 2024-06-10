@@ -29,6 +29,12 @@ This looks like a good video to follow to set it up: [WSL Instructions](https://
 `CSF` is a shared computing facility for research at UoM. It provides us with access to shared disk space and GPUs for training ML models.
 To access thse facilities, I've set up accounts for you. We access through the `ssh` protocol.
 
+CSF message:
+```
+Hi, I have set up your IT username on the CSF3 (Computational Shared Facility). We have a detailed introduction at: https://ri.itservices.manchester.ac.uk/csf3/getting-started/ This includes: * how to log in * filesystem availability, usage and policy * accessing software * a 10 minute tutorial about batch (recommended, all work must be submitted to this) Other tabs on the website lead to more detailed information on these topics and available software. No limits are imposed on the amount of CPU work you can run. However, the system can get busy so it is best to submit work as and when you have it ready to run. We have a lot of software applications already installed but we may not have the same version number of the software you have been using on your PC/laptop. Please try out an already-installed version before asking for a new install as it can take a couple of weeks or so to make new software available. To see a list of installed software, or, if you would like to try and install software in your home directory please follow the guidance here: https://ri.itservices.manchester.ac.uk/csf3/software/#Installing_your_own_Software Home disk space is very limited. You should keep temporary files in the scratch filesystem and also run your jobs from there. Please note that scratch is not for keeping files in long term and we operate an automated file deletion policy on it (see the filesystems tab on the website). If you need to safely store a large amount of data please check with your PI/Supervisor if they any Research Data Storage. If they do not they can apply for some and request it be accessible on the CSF. See the RDS website for more info: https://ri.itservices.manchester.ac.uk/rds/ Please note that the CSF should not be used for processing sensitive information. Please acknowledge your use of the CSF in any presentation, papers etc using the suggested text at: https://ri.itservices.manchester.ac.uk/csf3/overview/ack/ as it helps us ensure sustainability of the service. Kind regards,
+
+```
+
 ### SSH 
 This is a way of connecting to remote networks from your own terminal. I use it all the time to connect to cern computing infrastruture for example. 
 You can ssh to CSF via the following command:
