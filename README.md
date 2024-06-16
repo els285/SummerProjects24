@@ -47,14 +47,16 @@ Particle physics data is generally stored in `.root` files
 [https://scikit-hep.org/](https://scikit-hep.org/) - Python-based, "modern" alternative to ROOT. More pythonic syntax. More aligned with "data science" software stack, so arguably more applicable for more general data science. Machine-learning tools in general have to interface to this method of 
 
 
-## Storage
-I will put data on CERNbox: [https://cernbox.cern.ch/s/qQbt4fhHYhQX5Zt](https://cernbox.cern.ch/s/qQbt4fhHYhQX5Zt).
-* `ttbar_200k_dilep.root` = ROOT file with 200,000 ttbar dilepton events
+## Simulated Date
+CERNbox is a good place to store files: [https://cernbox.cern.ch/s/qQbt4fhHYhQX5Zt](https://cernbox.cern.ch/s/qQbt4fhHYhQX5Zt).
 
-
+Currently it contains:
+* `ttbar_200k_dilep.root` = ROOT file with 200,000 ttbar dilepton events. This sample contains **final-state particles only** (after everything decayed), no top quarks. 
+* `ttbar_1M_parton_dilep.root` = ROOT file with 1million ttbar dilepton events. This sample contains the **truth particles**.
 
 ## Useful Software Links
 
 [HyPER](https://github.com/tzuhanchang/HyPER)
 
+We will use this to generate the simulated data
 [MadLAD](https://github.com/tzuhanchang/MadLAD)
