@@ -39,11 +39,15 @@ One of the best modern tools is VSCode: [https://code.visualstudio.com/](https:/
 HEP software skills: [https://hsf-training.github.io/analysis-essentials/#](https://hsf-training.github.io/analysis-essentials/#)
 
 ### HEP data analysis frameworks:
+These are used to analyse the data structures we store particle collision information in: reading/writing that data, processing it and applying transformations to it, making histograms and plotting results. 
+Particle physics data is generally stored in `.root` files
+
 #### ROOT 
-[https://root.cern/](https://root.cern/) - C++ and Python through [PyROOT](https://root.cern/manual/python/). ROOT is the main tool people use to do ATLAS analyses. ROOT installation guide: [https://root.cern/install/#install-via-a-package-manager](https://root.cern/install/#install-via-a-package-manager). ROOT is slightly harder to pick up from a Python background.
+[https://root.cern/](https://root.cern/) - C++ and Python through [PyROOT](https://root.cern/manual/python/). ROOT is the main tool people use to do ATLAS analyses. ROOT installation guide: [https://root.cern/install/#install-via-a-package-manager](https://root.cern/install/#install-via-a-package-manager). ROOT is slightly harder to pick up from a Python background. If you want to stay in particle physics, you will probably have to use "proper ROOT" eventually. 
+
 #### Scikit-HEP 
-[https://scikit-hep.org/](https://scikit-hep.org/) - Python-based, "modern" alternative to ROOT
-These are used to analyse the data structures we store particle collision information in: reading/writing that data, processing it and applying transformations to it, making histograms and plotting results. Pip-installable.
+[https://scikit-hep.org/](https://scikit-hep.org/) - Python-based, "modern" alternative to ROOT. More pythonic syntax. More aligned with "data science" software stack, so arguably more applicable for more general data science. Machine-learning tools in general have to interface to this method of 
+
 
 
 
