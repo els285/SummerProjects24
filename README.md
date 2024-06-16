@@ -25,18 +25,25 @@ I wrote a quick physics primer, with overleaf [here](https://www.overleaf.com/re
 ## Technical Primer
 Some computer skills like information about command-line interfaces can be found in [TechnicalPrereqs.md](https://github.com/els285/SummerProjects24/blob/main/TechnicalPrereqs.md)
 
-Requirements:
+Possible requirements:
 * A place to store and manipulate data: own workshop, CSF, Noether.
 * A terminal
 * Jupyter notebook environment
 
-#### HEP Software Foundation
+### Where/How to work
+Best practice is to work in way that makes you feel most comfortable: this will probably be on your own laptop.
+Here you can run code in Jupyter / Google Colab notebooks (in a browser), or run scripts from the terminal.
+One of the best modern tools is VSCode: [https://code.visualstudio.com/](https://code.visualstudio.com/), which comes itself with a built in terminal, plus you cna build Jupyter notebooks in VSCode which is how I do most code development.
+
+### HEP Software Foundation
 HEP software skills: [https://hsf-training.github.io/analysis-essentials/#](https://hsf-training.github.io/analysis-essentials/#)
 
-#### HEP data analysis frameworks:
-* ROOT - [https://root.cern/](https://root.cern/) - C++ and Python through [PyROOT](https://root.cern/manual/python/). ROOT is the main tool people use
-* Scikit-HEP - [https://scikit-hep.org/](https://scikit-hep.org/) - Python-based, "modern" alternative to ROOT
-These are used to analyse the data structures we store particle collision information in: reading/writing that data, processing it and applying transformations to it, making histograms and plotting results.
+### HEP data analysis frameworks:
+#### ROOT 
+[https://root.cern/](https://root.cern/) - C++ and Python through [PyROOT](https://root.cern/manual/python/). ROOT is the main tool people use to do ATLAS analyses. ROOT installation guide: [https://root.cern/install/#install-via-a-package-manager](https://root.cern/install/#install-via-a-package-manager). ROOT is slightly harder to pick up from a Python background.
+#### Scikit-HEP 
+[https://scikit-hep.org/](https://scikit-hep.org/) - Python-based, "modern" alternative to ROOT
+These are used to analyse the data structures we store particle collision information in: reading/writing that data, processing it and applying transformations to it, making histograms and plotting results. Pip-installable.
 
 
 
