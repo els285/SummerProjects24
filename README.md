@@ -49,6 +49,9 @@ Particle physics data is generally stored in `.root` files
 [https://scikit-hep.org/](https://scikit-hep.org/) - Python-based, "modern" alternative to ROOT. More pythonic syntax. More aligned with "data science" software stack, so arguably more applicable for more general data science. Machine-learning tools in general have to interface to this method of 
 
 
+## Storage
+I will put data on CERNbox: [https://cernbox.cern.ch/s/qQbt4fhHYhQX5Zt](https://cernbox.cern.ch/s/qQbt4fhHYhQX5Zt).
+* `ttbar_200k_dilep.root` = ROOT file with 200,000 ttbar dilepton events
 
 
 
