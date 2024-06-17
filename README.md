@@ -49,7 +49,10 @@ Short example of doing a quick analysis using Scikit-HEP tools from Andy Pilking
 
 
 ## Simulated Date
-CERNbox is a good place to store files: [https://cernbox.cern.ch/s/qQbt4fhHYhQX5Zt](https://cernbox.cern.ch/s/qQbt4fhHYhQX5Zt).
+In time we can store data on shared diskspace on Manchester CSF.
+
+For now I have put some ttbar samples in the following Google Drive:
+[https://drive.google.com/drive/folders/1qIEkxLa28mjkq9DHc2bAvHzpoY0LPj-I?usp=sharing](https://drive.google.com/drive/folders/1qIEkxLa28mjkq9DHc2bAvHzpoY0LPj-I?usp=sharing)
 
 Currently it contains:
 * `ttbar_200k_dilep.root` = ROOT file with 200,000 ttbar dilepton events. This sample contains **final-state particles only** (after everything decayed), no top quarks. 
