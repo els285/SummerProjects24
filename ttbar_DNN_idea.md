@@ -11,7 +11,7 @@ The principle is to use a feed-forward neural network to assign the correct $b$-
 * Can probably run on own CPU, Google Colab GPU, or CSF gpu.
 
 ## Steps
-1. Truth-matching (Ethan need to think about this more)
+1. Truth-matching: match events (should be done automatically), then $\Delta R$ match the $b$-jets.
 2. Build combinations
 3. Convert ROOT file to .h5 (input example)
 4. Train model
