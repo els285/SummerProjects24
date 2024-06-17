@@ -16,3 +16,5 @@ The principle is to use a feed-forward neural network to assign the correct $b$-
 3. Convert ROOT file to .h5 (input example)
 4. Train model
 
+Similar approach in ATLAS analysis: [https://cds.cern.ch/record/2712338/files/ATL-COM-PHYS-2020-190.pdf?version=9](https://cds.cern.ch/record/2712338/files/ATL-COM-PHYS-2020-190.pdf?version=9) (this link won't work for non-ATLAS memberes)
+
