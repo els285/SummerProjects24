@@ -24,6 +24,27 @@ This looks like a good video to follow to set it up: [WSL Instructions](https://
 ...is fiddly at first. There are specific commands that do particular things, like copy files, make folders, run python etc. You kinda just have to learn these, for example at
 [Useful linux commands](https://www.hostinger.co.uk/tutorials/linux-commands)
 
+### Running Python in the terminal
+[Verbose explanation here](https://vteams.com/blog/how-to-run-a-python-script-in-terminal/)
+
+Running a Python **script** from the terminal is easy. You put all your Python code into a file and save that file with a name ending in `.py` e.g. `my_script.py`. You then run it (on unix-based system) by simply calling `python` or `python3`:
+```bash
+python my_script.py
+```
+**Aside on knowing what verison of Python you are running**
+From the terminal, you can do
+```bash
+python --version
+```
+to find out which verison you are using, and
+```bash
+which python
+```
+to find out the path of the python executable (or more generally any executable).
+
+
+
+
 ## CSF
 
 `CSF` is a shared computing facility for research at UoM. It provides us with access to shared disk space and GPUs for training ML models.
