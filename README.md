@@ -48,7 +48,7 @@ Particle physics data is generally stored in `.root` files
 Short example of doing a quick analysis using Scikit-HEP tools from Andy Pilkington [available here](https://github.com/heppilko/ParticlePhysics-simulation-and-analysis/blob/main/Examples/analysis_python.ipynb). This uses `uproot` to load the ROOT file, uses `vector` to create 4-momentum objects which can manipulated, uses `matplotlib` to create a histogram and plot it (and in the background uses `awkward-arrays` as the array type).
 
 
-## Simulated Date
+## Simulated Data
 In time we can store data on shared diskspace on Manchester CSF.
 
 For now I have put some ttbar samples in the following Google Drive:
