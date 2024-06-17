@@ -3,7 +3,14 @@
 Remember that if you don't have a module installed, you can pip-install it from the CLI `pip install the-module`, and in a Jupyter/Colab/VScode notebook by prepending an exclamation mark.
 (Better still from CLI is to install to a specific python version e.g. `python3.10 -m pip install the-module`
 
+## Manipulating the data
 `uproot` for reading and writing ROOT files.
+
+`awkward` is probably the best tool to work with particle physics data. You can apply many of the same type of operations as Numpy.
+
+`numpy` is ubiquitous array tool for Python. Sometime we have to revert to numpy arrays, for example when saving to file formats useful to machine learning.
+
+`pandas` is a dataframe package which gives mroe structure to arrays. Can be useful in specific cases for particle physics, but not the most natural format.
 
 ## Making Histograms
 I like `boost-histogram` for making histograms with more features than `matplotlib` histograms:
