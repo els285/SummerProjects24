@@ -1,7 +1,7 @@
 # Useful Physics Links
 
 ## Interesting Papers
-ttHH: [https://arxiv.org/abs/1905.03772](ttps://arxiv.org/abs/1905.03772)
+ttHH: [https://arxiv.org/abs/1905.03772](https://arxiv.org/abs/1905.03772)
 
 ATLAS 4tops observation: [https://link.springer.com/article/10.1140/epjc/s10052-023-11573-0](https://link.springer.com/article/10.1140/epjc/s10052-023-11573-0)
 
