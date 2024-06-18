@@ -6,6 +6,7 @@ The neutrino kinematics are unknown but can be worked out either in advance usin
 The principle is to use a feed-forward neural network to assign the correct $b$-jet--lepton pair. Using the truth information we know which $b$-jet comes from the same top-quark as each lepton. We can therefore make two combinations: $b_1 l_1 / b_2 l_2$ and $b_1 l_2 / b_2 l_1$, one of which is the correct combination. By assigning the correct combination a 1 and the incorrect 0, we can train a NN to discriminate between correct and incorrect combinations.
 
 ## Technical
+* [This tutorial looks nice and brief](https://www.python-engineer.com/courses/pytorchbeginner/13-feedforward-neural-network/)
 * [PyTorch NN tutorial](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html)
 * Should likely only need basic `torch` installation.
 * Can probably run on own CPU, Google Colab GPU, or CSF gpu.
