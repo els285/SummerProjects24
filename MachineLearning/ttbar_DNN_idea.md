@@ -12,10 +12,13 @@ The principle is to use a feed-forward neural network to assign the correct $b$-
 * Can probably run on own CPU, Google Colab GPU, or CSF gpu.
 
 ## Steps
-1. Truth-matching: match events (should be done automatically), then $\Delta R$ match the $b$-jets.
-2. Build combinations
-3. Convert ROOT file to .h5 (input example)
-4. Train model
+1. Truth-matching: $\Delta R$ match the $b$-jets.
+     Load the `reco` tree and the `particleLevel` trees as separate arrays, build four-vectors for leptons and jets, then work out for   each event if each particleLevel-jet is within $\Delta R < 0.4$ of a reco-jet, and each particleLevel-lepton is within $\Delta R <     0.1$ of a reco-lepton.
+   
+2. Build some combinations of observables including $m_{lb}$ , $\Delta R(l,b}$ etc.
+3. Decide on all inputs to include in training
+4. Convert ROOT file to .h5 (see example)
+5. Train model... more to follow.
 
 Similar approach in ATLAS analysis: [https://cds.cern.ch/record/2712338/files/ATL-COM-PHYS-2020-190.pdf?version=9](https://cds.cern.ch/record/2712338/files/ATL-COM-PHYS-2020-190.pdf?version=9) (this link won't work for non-ATLAS memberes)
 
