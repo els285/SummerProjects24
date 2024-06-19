@@ -22,7 +22,7 @@ In particular, I would highlight:
 * [Building neural networks with PyTorch](https://github.com/makagan/SSI_Projects/blob/main/pytorch_basics/pytorch_intro.ipynb)
 
 [MLHEP School tutorials
-]([url](https://github.com/MLHEP-school/2023/tree/main))
+](https://github.com/MLHEP-school/2023/tree/main)
 ## Converting ROOT data
 The default file format for machine learning is `.h5`, so the first thing one
 has to do is convert ROOT files to this format. A very short example notebook is
