@@ -9,8 +9,7 @@ The tutorial will definitely work that way.
 If you want to do it on your own machine, give it a try: I've uploaded the datasets I think you need to the Google Drive in [this subdirectory](https://drive.google.com/drive/folders/1MXqiK9E-uVTh8K2_Y8-r98InRAQBUrvJ).
 
 Many other cool tutorials from a Summer School I didn't get to go to because of Covid (more complex):
-[https://github.com/makagan/SSI_Projects/tree/main
-]([ttps://github.com/makagan/SSI_Projects/tree/main)
+[https://github.com/makagan/SSI_Projects/tree/main](ttps://github.com/makagan/SSI_Projects/tree/main)
 
 
 ## Converting ROOT data
