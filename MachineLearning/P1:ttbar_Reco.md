@@ -16,9 +16,9 @@ The principle is to use a feed-forward neural network to assign the correct $b$-
      Load the `reco` tree and the `particleLevel` trees as separate arrays, build four-vectors for leptons and jets, then work out for   each event if each particleLevel-jet is within $\Delta R < 0.4$ of a reco-jet, and each particleLevel-lepton is within $\Delta R <     0.1$ of a reco-lepton.
    Pseudo-code:
    ```
-     i. Compute the deltaR for each pair of truth-jets and reco-jets: e.g. DeltaR(truth_jet,reco_jet)
-     ii. We want 2 jets, so select the two candidates have smallest deltaRs
-     iii. Repeat for all events
+     1. Compute the deltaR for each pair of truth-jets and reco-jets: e.g. DeltaR(truth_jet,reco_jet), and store
+     2. We want 2 jets, so select the two candidates have smallest deltaRs, and store
+     3. Repeat for all events
    ```
    
 3. Build some combinations of observables including $m_{lb}$ , $\Delta R(l,b)$ etc.
@@ -27,4 +27,14 @@ The principle is to use a feed-forward neural network to assign the correct $b$-
 6. Train model... more to follow.
 
 Similar approach in ATLAS analysis: [https://cds.cern.ch/record/2712338/files/ATL-COM-PHYS-2020-190.pdf?version=9](https://cds.cern.ch/record/2712338/files/ATL-COM-PHYS-2020-190.pdf?version=9) (this link won't work for non-ATLAS members)
+
+## Suggested Observables
+If we assume $l^+$ should be paired 
+* $m_{l^+,b_1}$
+* $\Delta R(l^+,b_1)$
+* $\Delta \eta (l^+,b_1)
+* $(l^+ + b_1).p_T$
+(and the opposite combinations: $l^-, b_2$)
+Other funky combinations, like the angles between $l^+ + b_1$ vector and $l^- + b_2$ vector.
+Plus some other basic individual kinematics of the four objects.
 
