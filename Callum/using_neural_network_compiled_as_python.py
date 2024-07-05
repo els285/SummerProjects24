@@ -131,27 +131,8 @@ expected_labels = np.concatenate([np.ones(22762), np.zeros(22762)])
 
 results = prob.cpu().detach().numpy().argmax(axis=1)
 
-# Compute confusion matrix
-cm = confusion_matrix(expected_labels, results)
+np.savetxt("results", results, delimiter=',')
 
-# Plot confusion matrix with annotations
-plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
-plt.title('Neural network trained on ATLAS test')
-plt.colorbar()
-tick_marks = np.arange(2)
-plt.xticks(tick_marks, ['Predicted signal', 'Predicted background'])
-plt.yticks(tick_marks, ['signal', 'background '])
-
-# Add numerical annotations
-thresh = cm.max() / 2.
-for i in range(cm.shape[0]):
-    for j in range(cm.shape[1]):
-        plt.text(j, i, f"{cm[i, j] / (len(results)/2) * 100:.1f}%",
-                 ha="center", va="center",
-                 color="white" if cm[i, j] > thresh else "black")
-
-plt.tight_layout()
-plt.show()
-
+print("results saved" )
 
 
