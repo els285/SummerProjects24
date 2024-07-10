@@ -69,6 +69,10 @@ upon which you'll then be prompted for a password and possible two-factor authen
 For security reasons, you can only access CSF if you are using UoM wifi, not eduroam or any other network.
 We can get around this by setting up a VPN, with instructions here: [https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/](https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/).
 
+## Conda 
+For building Python environments with dependencies:
+[https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/index.html
+](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/index.html)
 
 
 
