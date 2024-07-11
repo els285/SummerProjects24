@@ -26,3 +26,9 @@ Build the top kinematics, and compare to Task 1, where in each case you use the 
 The most useful comparison is to make a histogram of the difference between a kinematic and truth:
 <img width="542" alt="image" src="https://github.com/els285/SummerProjects24/assets/68130081/9b1473ef-ead6-42bd-acb7-7233fee8d6ea">
 
+e.g.
+```python
+top_truth.pt - top_nu2.pt
+```
+
+Be good to have all of this as a script rather than a Jupyter Notebook in the end!
