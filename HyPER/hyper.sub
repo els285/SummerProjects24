@@ -1,0 +1,33 @@
+#!/bin/bash --login
+#$ -cwd                # Job will run in the current directory (where you ran qsub)
+#$ -N july11_1420
+#$ -o ./logs           # Write the outputs to the logs directory
+#$ -l nvidia_v100=1  # Runs on M GPU nodes
+#$ -pe smp.pe 8      # Runs on N CPU nodes
+
+echo "Job is using $NGPUS GPU(s) with ID(s) $CUDA_VISIBLE_DEVICES and $NSLOTS CPU core(s)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/mnt/iusers01/jw01/c73320es/miniforge3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/mnt/iusers01/jw01/c73320es/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/mnt/iusers01/jw01/c73320es/miniforge3/etc/profile.d/conda.sh"
+    else
+        export PATH="/mnt/iusers01/jw01/c73320es/miniforge3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# Load required environment
+conda activate PYG
+echo $CONDA_PREFIX
+source pyg_setup.sh
+
+cp /mnt/iusers01/jw01/c73320es/scratch/ttbar_allhad_hyper_data/v3/*  $TMPDIR
+
+# Copy input datasets to TMPDIR for speed
+python -m HyPER.train --config-name=default all_matched=False train_set=$TMPDIR/hyper_train3.h5 val_set=$TMPDIR/hyper_val3.h5 db_config=examples/ttbar_allhad/db$
