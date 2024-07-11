@@ -1,8 +1,14 @@
 # HyPER
 
 Run on CSF.
+Create the `PYG` conda environment:
+```bash
+conda env create -f hyper_environment.yaml
+```
 
-Build appropriate conda environment, installing the PyG extensions on the remote GPU node after conda activation, all achieved through submission script:
+Have the `pyg_setup.sh` script in the same directory as where you submit your HyPER job.
+
+Run
 ```bash
 qsub hyper.sub
 ```
