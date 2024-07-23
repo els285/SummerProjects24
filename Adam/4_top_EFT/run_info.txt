@@ -1,0 +1,127 @@
+EFT_cQQ1_higher
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0
+cQQ8 : 0
+cQQ1 : 2.153
+cQt1 : 0
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
+EFT_cQQ1_lower
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0
+cQQ8 : 0
+cQQ1 : -2.403
+cQt1 : 0
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
+EFT_cQQ8_higher
+generate : p p > t t~ t t~ QED<=99 QCD<=99 NP=2
+nevents : 10000
+cQQ8 : 6.533
+cQQ1 : 0
+cQt1 : 0
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
+EFT_cQQ8_lower
+generate : p p > t t~ t t~ QED<=99 QCD<=99 NP=2
+nevents : 10000
+cQQ8 : -7.196
+cQQ1 : 0
+cQt1 : 0
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
+EFT_cQt1_higher
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : 1.958
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
+EFT_cQt1_lower
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : -1.945
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
+EFT_cQt8_higher
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : 0
+ctt1 : 0
+cQt8 : 3.607
+----------------------------------------
+EFT_cQt8_lower
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : 0
+ctt1 : 0
+cQt8 : -4.415
+----------------------------------------
+EFT_ctG_higher
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0.005
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : 0
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
+EFT_ctG_lower
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : -0.002
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : 0
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
+EFT_ctt1_higher
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : 0
+ctt1 : 1.070
+cQt8 : 0
+----------------------------------------
+EFT_ctt1_lower
+generate : p p > t t~ t t~ QED=99 QCD=99 NP=2
+nevents : 10000
+ctG : 0
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : 0
+ctt1 : -1.201
+cQt8 : 0
+----------------------------------------
+EFT_sm
+generate : p p > t t~ t t~ QED<=99 QCD<=99 NP=2
+nevents : 10000
+cQQ8 : 0
+cQQ1 : 0
+cQt1 : 0
+ctt1 : 0
+cQt8 : 0
+----------------------------------------
