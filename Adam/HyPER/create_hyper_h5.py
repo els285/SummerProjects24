@@ -114,8 +114,8 @@ print('forming data')
 data = {}
 data['njet'] = njet
 data['nbtagged'] = np.sum(jet_btag, axis=1)
-data['allMatchedEvent'] = np.sum(jet_truthmatch !=0, axis=1) == njet
-data['leastOneMatchedW'] = np.any(np.isin(jet_truthmatch, [2,3,5,6]), axis=1)
+data['allMatchedEvent'] = np.sum(jet_truthmatch, axis=1) == 21
+data['leastOneMatchedW'] = (np.any(jet_truthmatch == 2, axis=1) & np.any(jet_truthmatch == 3, axis=1)) | (np.any(jet_truthmatch == 5, axis=1) & np.any(jet_truthmatch == 6, axis=1))
 data['jet_pt'] = pad_variable(jet_pt, max_jet)
 data['jet_eta'] = pad_variable(jet_eta, max_jet, pad_to = 0)
 data['jet_phi'] = pad_variable(jet_phi, max_jet)
