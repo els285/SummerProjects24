@@ -5,10 +5,15 @@ import h5py
 import awkward as ak
 import vector
 
-path = 'C:/Users/HP/Documents/data/'
+import sys
+
+
+# path = 'C:/Users/HP/Documents/data/'
+filepath = sys.argv[1]
+outfile  = sys.argv[2]
 pad_to_jet = 20
 print('opening root')
-root_file   = uproot.open(path+'skim2_28.root')['Delphes']
+root_file   = uproot.open(filepath)['Delphes']
 
 
 njet = root_file['Jet'].array()        
@@ -48,7 +53,7 @@ def quick_method(jets, particles, max_jet, limit = length):
     matched = np.zeros((limit,max_jet))
     mask = np.zeros((limit, max_jet), dtype=bool)
     for i in range(max_jet):
-        delta_Rs = jets[:,i][:limit].deltaR(particles[:limit])
+        delta_Rs = jets[:,i][:limit].deltaR(particles[:limit])  
         min_R = np.min(delta_Rs, axis=1)
         index = new_values[np.argmin(delta_Rs, axis=1)]
         matched[:,i] = np.where(min_R<0.4, index,0)
@@ -109,8 +114,8 @@ print('forming data')
 data = {}
 data['njet'] = njet
 data['nbtagged'] = np.sum(jet_btag, axis=1)
-data['allMatchedEvent'] = np.sum(jet_truthmatch==0, axis=1) == 0
-data['leastOneMatchedW'] = np.any(jet_truthmatch == 2, axis=1) | np.any(jet_truthmatch == 3, axis=1) | np.any(jet_truthmatch == 5, axis=1) | np.any(jet_truthmatch == 6, axis=1)
+data['allMatchedEvent'] = np.sum(jet_truthmatch, axis=1) == 21
+data['leastOneMatchedW'] = (np.any(jet_truthmatch == 2, axis=1) & np.any(jet_truthmatch == 3, axis=1)) | (np.any(jet_truthmatch == 5, axis=1) & np.any(jet_truthmatch == 6, axis=1))
 data['jet_pt'] = pad_variable(jet_pt, max_jet)
 data['jet_eta'] = pad_variable(jet_eta, max_jet, pad_to = 0)
 data['jet_phi'] = pad_variable(jet_phi, max_jet)
@@ -125,7 +130,7 @@ data['particle_phi'] = particle_phi[particle_status == 23][:,-6:]
 data['particle_m'] = particle_m[particle_status == 23][:,-6:]
 
 print('saving data')
-h5_file = h5py.File(path+f"Hyper_data.h5", 'w')
+h5_file = h5py.File(outfile, 'w')
 group = h5_file.create_group('Delphes')
 for key, value in data.items():
     group.create_dataset(key, data=value)
