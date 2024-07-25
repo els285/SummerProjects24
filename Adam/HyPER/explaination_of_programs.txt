@@ -1,0 +1,13 @@
+Adam_parse_ROOT
+- follows Han's HyPER tutorial for converting a root file into an h5 file, but uses batching to avoid memory issues for large files
+
+Adam_parse_ROOT_numpy
+- same as above, but uses a numpy method rather than a for loop. This is about 3.5 times faster than the method above
+- this doesn't use the same dtype labels, so this could be a problem. I seem to remember you saying that HyPER just uses the position, not the labels
+
+create_hyer.py
+- creates an h5 file in the from the raw data.
+- delta R matches to find jet_match
+
+challenge universal
+- same as above, but the jupyter notebook
