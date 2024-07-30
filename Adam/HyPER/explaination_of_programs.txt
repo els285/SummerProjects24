@@ -8,6 +8,11 @@ Adam_parse_ROOT_numpy
 create_hyer.py
 - creates an h5 file in the from the raw data.
 - delta R matches to find jet_match
+- works for all had for 4 top and ttbar (just need to set the new_values)
 
-challenge universal
-- same as above, but the jupyter notebook
+lepton case
+- jupyter notebook of the ttbar single lepton with some steps explained
+
+create_hyper_ttbar_sing_lep_h5
+- python file to convert root to h5 for ttbar single lepton (very limited comments so good luck)
+
