@@ -147,6 +147,7 @@ jet_data['id']     = np.ones(len(njet)).reshape(-1,1)
 
 
 VertexID_data = jet_truthmatch
+IndexSelect = 1*(np.sum(np.isin(VertexID_data, [1,2,3,4,5,6]), axis=1) == 6)
 
 print('saving data')
 h5_file = h5py.File(outfile, 'w')
@@ -156,6 +157,7 @@ labels_group = h5_file.create_group('LABELS')
 inputs_group.create_dataset("jet", data=jet_data)
 inputs_group.create_dataset("global", data=global_data)
 labels_group.create_dataset("VertexID", data=VertexID_data)
+labels_group.create_dataset("IndexSelect", data = IndexSelect)
 
 h5_file.close()
 print('program finished')
