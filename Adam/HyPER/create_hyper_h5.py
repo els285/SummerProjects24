@@ -137,8 +137,6 @@ global_data['nbTagged'] = nbTagged
 node_dt  = np.dtype([('e', np.float32), ('eta', np.float32), ('phi', np.float32), ('pt', np.float32), ('btag', np.float32), ('charge', np.float32), ('id', np.float32)])
 jet_data = np.zeros((len(njet), pad_to_jet), dtype=node_dt)
 
-VertexID_dt = np.int
-
 jet_data['pt']   = jet_vectors_padded.pt
 jet_data['eta']  = pad_variable(jet_eta, pad_to_jet, pad_to = 0)
 jet_data['phi']  = jet_vectors_padded.phi
