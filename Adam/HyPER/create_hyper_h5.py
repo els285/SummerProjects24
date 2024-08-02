@@ -10,8 +10,8 @@ import os
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
-path = '/mnt/c/Users/HP/Documents/data/HyPER'
-os.chdir(path)
+# path = '/mnt/c/Users/HP/Documents/data/HyPER'
+# os.chdir(path)
 filepath = sys.argv[1]
 outfile  = sys.argv[2]
 pad_to_jet = 20
@@ -119,7 +119,8 @@ jet_vectors        = vector.zip({'pt':jet_pt, 'eta':jet_eta, 'phi':jet_phi, 'm' 
 # Performing truth-matching
 print('truth matching')
 jet_truthmatch = full_method(jet_vectors, jet_vectors_padded, particle_vectors, pad_to_jet)
-VertexID_data = jet_truthmatch + -9*(ak.local_index(jet_truthmatch) > njet[:,None])
+jet_id         = 1*(ak.local_index(jet_truthmatch) < njet[:,None]) + 0*(ak.local_index(jet_truthmatch) > njet[:,None])
+jet_truthmatch = jet_truthmatch + -9*(ak.local_index(jet_truthmatch) > njet[:,None])
 
 print('forming data')
 
@@ -137,16 +138,15 @@ global_data['nbTagged'] = nbTagged
 node_dt  = np.dtype([('e', np.float32), ('eta', np.float32), ('phi', np.float32), ('pt', np.float32), ('btag', np.float32), ('charge', np.float32), ('id', np.float32)])
 jet_data = np.zeros((len(njet), pad_to_jet), dtype=node_dt)
 
-
 jet_data['pt']   = jet_vectors_padded.pt
 jet_data['eta']  = pad_variable(jet_eta, pad_to_jet, pad_to = 0)
 jet_data['phi']  = jet_vectors_padded.phi
 jet_data['e']    = jet_vectors_padded.e
 jet_data['btag'] = pad_variable(jet_btag, pad_to_jet)
 jet_data['charge'] = np.zeros(len(njet)).reshape(-1,1)
-jet_data['id']     = np.ones(len(njet)).reshape(-1,1)
+jet_data['id']     = jet_id
 
-
+VertexID_data = jet_truthmatch
 IndexSelect = 1*(np.sum(np.isin(VertexID_data, [1,2,3,4,5,6]), axis=1) == 6)
 
 
@@ -157,8 +157,8 @@ labels_group = h5_file.create_group('LABELS')
 
 inputs_group.create_dataset("jet", data=jet_data)
 inputs_group.create_dataset("global", data=global_data)
-labels_group.create_dataset("VertexID", data=np.array(VertexID_data, dtype = np.int64))
-labels_group.create_dataset("IndexSelect", data = np.array(IndexSelect, dtype = np.int32))
+labels_group.create_dataset("VertexID", data=VertexID_data.to_numpy().astype(np.int64))
+labels_group.create_dataset("IndexSelect", data = IndexSelect.to_numpy().astype(np.int32))
 
 h5_file.close()
 print('program finished')
