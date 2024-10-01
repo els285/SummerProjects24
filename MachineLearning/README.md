@@ -7,7 +7,7 @@ All in a HEP context...
 
 ### HSF ML Tutorial
 Here is the official HSF tutorial which I think gives a good introduction to classification using PyTorch (it uses `scikit-learn` first which is a good easier intro):
-[https://hsf-training.github.io/hsf-training-ml-webpage/]https://hsf-training.github.io/hsf-training-ml-webpage/)
+[https://hsf-training.github.io/hsf-training-ml-webpage/](https://hsf-training.github.io/hsf-training-ml-webpage/).
 
 You are meant to run this in a Kaggle Jupyter notebook by making a Kaggle account (maybe this is of intrest to you anyway).
 The tutorial will definitely work that way.
